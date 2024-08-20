@@ -1,0 +1,272 @@
+/* General Reset */
+* {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+input, textarea, select {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.sarabun-extralight {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo and links */
+    align-items: center;
+    height: 62px;
+    padding: 0 20px; /* Adjust padding as needed */
+    background-color: black;
+    color: white;
+}
+
+/* Logo Styling */
+.logo {
+    font-family: 'New Amsterdam', sans-serif;
+    font-size: 30px;
+}
+
+/* Nav List Styling */
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar:hover{
+    background-color:burlywood;
+}
+.navlist li {
+    list-style: none;
+    margin: 0 52px;
+}
+.section img {
+    height: 950px; /* Desired height */
+    width: 100%; /* Full width of the section */
+    object-fit:fill; /* Ensures the image scales down to fit within the height */
+}
+.text-section h2 {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+     color:white;
+     font-family: "Kaushan Script", cursive;
+ z-index: 1;
+ margin-top: 105px;
+}
+.top-flex{
+    position: relative;
+
+}
+.top-flex h2{
+    margin-left: 20px;
+}
+/* Image Section Styling */
+.img-section {
+    position: relative; /* Establishes a positioning context */
+    width: 100%;        /* Full width of the container */
+    height: 620px;      /* Adjust height as needed */
+}
+.search{
+    background-color: white;
+    padding: 4px 6px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.img-section img {
+    width: 100%;        /* Full width of the container */
+    height: 100%;       /* Full height of the container */
+    object-fit: cover;  /* Ensures the image covers the container */
+}
+
+/* Button Styling */
+.btn {
+    position: absolute; /* Position the button on top of the image */
+    bottom: 375px;       /* Distance from the bottom of the container */
+    left: 5%;          /* Center horizontally */
+    padding: 10px;      /* Padding inside button container */
+}
+.search-button{
+    border-radius: 50%;
+}
+.btn button {
+    background-color:black; /* Green background color */
+    border: none;              /* Remove default border */
+    color: white;              /* White text color */
+    padding: 15px 32px;        /* Add padding inside the button */
+    text-align: center;        /* Center text inside button */
+    text-decoration: none;     /* Remove underline from text */
+    font-size: 16px;           /* Font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 4px;        /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+.about-title
+{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:black;
+    height: 100px;
+    justify-content: center;
+    font-size: large;   
+    height: 60px;
+    margin-top: 0px;
+}
+.about-title:hover{
+background-color:burlywood;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:rgb(243, 234, 222);
+}
+
+.team-about{
+    background-color:rgb(243, 234, 222);
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.team-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    line-height: 20px;
+   
+}
+.team-member p{
+    font-size: larger;
+    word-spacing: 12px;
+    line-height: 22px;
+}
+.black-text{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bold{
+    font-weight: 900;
+}
+.about-us{
+    justify-content: center;
+    line-height: 48px;
+  font-size:large;
+  word-spacing: 10px;
+  margin: 0px;
+  background-color:rgb(243, 234, 222);
+
+}
+.about-us p{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0; /* Remove any default margin */
+    padding: 20px; /* Add padding for spacing */
+}
+.about img{
+    margin: 0;
+    width: 90%;
+    height: 600px;
+    padding-top: 30px;
+}
+.footer-container{
+    background-color:rgb(180, 172, 162);
+}
+.footer-community h2,a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.footer-community input{
+    margin-bottom: 20px;
+    font-family: cursive;
+    padding: 3px;
+    border-radius: 3%;
+}
+.footer-community a{
+padding: 8px;
+}
+
+.footer-community button{
+background-color: white;
+color: grey;
+border: none;
+padding: 4px;
+}
+.footer{
+    margin-top: 20px;
+}
+.footer-community{
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+.footer-section h2,ul,li,a
+{
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-section{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.customer-care h2,li,a{
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icon{
+    margin-top: 200px;
+    margin-left: 300px;
+    size: 10;
+}
+.icon button{
+    cursor: ;
+}
